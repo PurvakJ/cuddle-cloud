@@ -87,7 +87,7 @@ function LoadingScreen({ onLoad }) {
         <div className="logo-wrapper">
         <div className="loader-logo">
   <img 
-    src="https://i.postimg.cc/g2pTVpn4/Whats-App-Image-2026-05-07-at-18-40-34-removebg-preview.png" 
+    src="https://i.postimg.cc/zf6D50dD/Whats-App-Image-2026-05-09-at-19-23-32-1-removebg-preview.png" 
     alt="Cuddle Cloud Logo" 
   />
 </div>
