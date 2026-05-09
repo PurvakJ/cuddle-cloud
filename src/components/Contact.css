@@ -611,4 +611,8 @@
     .info-icon {
         font-size: 2rem;
     }
+
+    .contact-hero .container{
+        margin-top: 50px;
+    }
 }

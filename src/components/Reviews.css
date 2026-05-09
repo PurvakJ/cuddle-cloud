@@ -782,5 +782,9 @@
     .cta-content h3 {
         font-size: 1.2rem;
     }
+
+    .reviews-hero .container{
+        margin-top: 50px;
+    }
 }
 

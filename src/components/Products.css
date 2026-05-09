@@ -987,6 +987,10 @@
     .contact-actions {
         gap: 10px;
     }
+
+    .products-hero .container{
+        margin-top: 50px;
+    }
 }
 
 /* Fix for iOS Safari */
