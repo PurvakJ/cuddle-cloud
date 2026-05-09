@@ -74,9 +74,9 @@ const Home = () => {
 
   // Categories
   const categories = [
-    { name: "Zero Gravity", icon: "☁️", link: "/products?category=zero-gravity", description: "Weightless sleep experience", image: "https://mysleepyhead.com/cdn/shop/files/Original_PDP_5.jpg?v=1768928275&width=800" },
-    { name: "Orthopedic", icon: "🩺", link: "/products?category=orthopedic", description: "Doctor-recommended support", image: "https://www.duroflexworld.com/cdn/shop/files/2_2026e6ee-a9e8-4ff5-88c7-104fea9cefb8.jpg?v=1744560694&width=800" },
-    { name: "Memory Foam", icon: "🌀", link: "/products?category=memory-foam", description: "Pressure-relieving comfort", image: "https://www.rentomojo.com/blog/wp-content/uploads/2025/08/benefits-of-orthopedic-mattress.png" },
+    { name: "Zero Gravity", icon: "☁️", link: "/products?category=zero-gravity", description: "Weightless sleep experience", image: "https://m.media-amazon.com/images/I/71bLn6bjYuL.jpg" },
+    { name: "Orthopedic", icon: "🩺", link: "/products?category=orthopedic", description: "Doctor-recommended support", image: "https://xcdn.next.co.uk/common/items/default/default/itemimages/3_4Ratio/product/lge/660560s2.jpg?im=Resize,width=750" },
+    { name: "Memory Foam", icon: "🌀", link: "/products?category=memory-foam", description: "Pressure-relieving comfort", image: "https://s.yimg.com/ny/api/res/1.2/AhBLxPwESH86Op.Ry2YVkw--/YXBwaWQ9aGlnaGxhbmRlcjt3PTI0MDA7aD0xMzUwO2NmPXdlYnA-/https://media.zenfs.com/en/toms_guide_826/11c9993368b95e81f6e7b8633b632a04" },
     { name: "Hybrid", icon: "✨", link: "/products?category=hybrid", description: "Best of both worlds", image: "https://images-cdn.ubuy.co.in/669eeae2e620e2469e48f254-3-inch-memory-foam-mattress-topper.jpg" }
   ];
 
@@ -270,7 +270,7 @@ const Home = () => {
             </div>
             <div className="hero-image-new reveal-right">
               <div className="floating-card-new">
-                <img src="https://mysleepyhead.com/cdn/shop/files/Original_PDP_5.jpg?v=1768928275&width=800" alt="Cuddle Cloud Premium Mattress" />
+                <img src="https://i.postimg.cc/sXT4LCnq/beautiful-luxury-comfortable-white-pillow-blanket-decoration-interior-bedroom.jpg" alt="Cuddle Cloud Premium Mattress" />
                 <div className="trust-ring">
                   <span className="icon">🏆</span>
                   <span>India's Most Trusted Mattress</span>
@@ -311,7 +311,7 @@ const Home = () => {
               <p>Every Cuddle Cloud mattress undergoes rigorous testing to ensure optimal support, temperature regulation, and pressure relief.</p>
               <div className="showreel-stats">
                 <div className="showreel-stat">
-                  <span className="number">10+</span>
+                  <span className="number">17+</span>
                   <span className="label">Years Innovation</span>
                 </div>
                 <div className="showreel-stat">
