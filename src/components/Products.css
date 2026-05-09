@@ -805,3 +805,213 @@
     }
 }
 
+/* Add these updated styles for better mobile modal handling */
+
+/* Modal Styles - Improved for Mobile */
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(10, 37, 64, 0.95);
+    backdrop-filter: blur(10px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+    padding: 20px;
+    overflow-y: auto; /* Allow scrolling on overlay */
+}
+
+.modal-content {
+    background: var(--cream-bg);
+    border-radius: 32px;
+    max-width: 1000px;
+    width: 90%;
+    max-height: 90vh;
+    overflow-y: auto;
+    position: relative;
+    animation: modalPop 0.3s ease;
+}
+
+/* Ensure modal content is clickable */
+.product-detail-modal {
+    display: flex;
+    flex-wrap: wrap;
+    cursor: default;
+}
+
+/* Mobile-specific modal styles */
+@media (max-width: 768px) {
+    .modal-overlay {
+        padding: 10px;
+        align-items: flex-start; /* Align to top on mobile */
+        padding-top: 20px;
+    }
+    
+    .modal-content {
+        width: 95%;
+        max-height: 85vh;
+        border-radius: 24px;
+    }
+    
+    .product-detail-modal {
+        flex-direction: column;
+    }
+    
+    .product-detail-gallery {
+        border-radius: 24px 24px 0 0;
+        padding: 1rem;
+        min-width: auto;
+    }
+    
+    .product-detail-info {
+        padding: 1.5rem;
+    }
+    
+    /* Make close button more touch-friendly */
+    .close-modal {
+        top: 10px;
+        right: 10px;
+        width: 36px;
+        height: 36px;
+        font-size: 1.3rem;
+        background: var(--blue-deep);
+        z-index: 20;
+    }
+    
+    /* Improve touch targets for slider buttons */
+    .slider-nav {
+        width: 40px;
+        height: 40px;
+        background: rgba(10, 37, 64, 0.7);
+    }
+    
+    .slider-dot {
+        width: 10px;
+        height: 10px;
+    }
+    
+    .slider-dot.active {
+        width: 30px;
+    }
+    
+    /* Make thumbnails more touchable */
+    .thumbnail {
+        width: 55px;
+        height: 55px;
+        min-width: 55px;
+    }
+    
+    /* Improve button touch targets */
+    .call-now-btn, 
+    .wa-consult-btn, 
+    .consult-btn {
+        padding: 14px 20px;
+        font-size: 0.9rem;
+    }
+    
+    /* Ensure product card clicks work properly */
+    .product-card {
+        cursor: pointer;
+        -webkit-tap-highlight-color: transparent;
+    }
+    
+    .product-card:active {
+        transform: scale(0.98);
+    }
+}
+
+@media (max-width: 480px) {
+    .modal-content {
+        width: 98%;
+        max-height: 80vh;
+    }
+    
+    .product-detail-gallery {
+        padding: 0.75rem;
+    }
+    
+    .product-detail-info {
+        padding: 1rem;
+    }
+    
+    .main-slider-image img {
+        height: 200px;
+    }
+    
+    .thumbnail {
+        width: 45px;
+        height: 45px;
+        min-width: 45px;
+    }
+    
+    .thumbnail-strip {
+        gap: 6px;
+    }
+    
+    .close-modal {
+        top: 8px;
+        right: 8px;
+        width: 32px;
+        height: 32px;
+        font-size: 1.2rem;
+    }
+    
+    .product-detail-info h2 {
+        font-size: 1.2rem;
+        margin-bottom: 8px;
+    }
+    
+    .price-tag {
+        font-size: 1.3rem;
+        margin-bottom: 12px;
+    }
+    
+    .delivery-info {
+        gap: 8px;
+        margin-bottom: 15px;
+    }
+    
+    .delivery-info span {
+        font-size: 0.65rem;
+        padding: 4px 10px;
+    }
+    
+    .full-description {
+        font-size: 0.85rem;
+        margin-bottom: 20px;
+    }
+    
+    .contact-actions {
+        gap: 10px;
+    }
+}
+
+/* Fix for iOS Safari */
+@supports (-webkit-touch-callout: none) {
+    .modal-overlay {
+        height: -webkit-fill-available;
+    }
+    
+    .modal-content {
+        max-height: 85vh;
+        overflow-y: auto;
+        -webkit-overflow-scrolling: touch;
+    }
+}
+
+/* Ensure images load properly on mobile */
+.product-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Prevent body scroll when modal is open */
+body.modal-open {
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
+}
