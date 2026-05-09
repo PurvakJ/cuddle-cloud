@@ -66,9 +66,9 @@ function About() {
   ];
 
   // Full mattress images for Cuddle Cloud
-  const fullMattressImages = [    "https://thumbs.dreamstime.com/b/luxurious-comfort-mattress-black-background-premium-pillow-top-highlighted-dark-setting-emphasizing-quality-320898937.jpg",
-    "https://i.postimg.cc/t4xPG9xW/Gemini-Generated-Image-lnp16flnp16flnp1.jpg",
-    "https://i.postimg.cc/vZV9wGVW/Gemini-Generated-Image-ymtdxdymtdxdymtd.jpg"
+  const fullMattressImages = [    "https://5.imimg.com/data5/SELLER/Default/2022/10/SG/BQ/EA/4992243/memory-foam-mattress.png",
+    "https://murphycomforts.com/wp-content/uploads/2024/02/Latex-Hybrid-intersection-image.jpg",
+    "https://cdn-ildngmc.nitrocdn.com/yorsLovOOpHxcDUKbctrrxRYSnzEeyvJ/assets/images/optimized/rev-9f453c8/treetale.uk/wp-content/uploads/2021/04/memory.jpg"
   ];
 
   const [currentFullImage, setCurrentFullImage] = useState(0);
