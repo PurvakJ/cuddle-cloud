@@ -45,7 +45,7 @@ function BookAppointment() {
         <div className="success-container">
           <div className="success-icon">✓</div>
           <h2>Appointment Booked Successfully!</h2>
-          <p>Thank you for choosing Ortthiva Premium Mattresses.</p>
+          <p>Thank you for choosing Cuddle Cloud Premium Mattresses.</p>
           <p>Our sleep expert will contact you shortly at <strong>{formData.phone}</strong> to confirm your appointment.</p>
           <div className="success-actions">
             <button className="btn-primary" onClick={() => setSubmitted(false)}>
@@ -65,11 +65,11 @@ function BookAppointment() {
       {/* Hero Section */}
       <section className="appointment-hero">
         <div className="container">
-          <div className="hero-badge">Ortthiva Sleep Consultancy</div>
+          <div className="hero-badge">Cuddle Cloud Sleep Consultancy</div>
           <h1>Book a <span>Sleep Consultation</span></h1>
           <p>Schedule a personalized mattress consultation at our experience center or request a home visit</p>
           <div className="contact-badge">
-            <span>📞 Need help? Call our sleep experts: <a href="tel:+918054080555">+91 80540 80555</a></span>
+            <span>📞 Need help? Call our sleep experts: <a href="tel:+917696329012">+91 76963 29012</a></span>
           </div>
         </div>
       </section>
@@ -106,11 +106,12 @@ function BookAppointment() {
               <div className="info-card experience-card">
                 <div className="card-icon">📍</div>
                 <h3>Experience Center</h3>
-                <p>Visit our flagship experience center to feel the Ortthiva difference</p>
+                <p>Visit our flagship experience center to feel the Cuddle Cloud difference</p>
                 <div className="address">
-                  <span>📍 Ortthiva Experience Center</span>
-                  <span>Near Haryali Pump, Maur Mandi</span>
-                  <span>Distt. Bathinda (151509)</span>
+                  <span>📍 Cuddle Cloud Experience Center</span>
+                  <span>Near Ganga Oil Mill, Mansa (151505)</span>
+                  <span>Distt. Mansa (151505)
+                  Punjab, India</span>
                 </div>
                 <div className="hours">
                   <span>🕐 Mon-Sat: 10 AM - 7 PM</span>
