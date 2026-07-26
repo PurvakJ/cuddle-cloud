@@ -1,7 +1,7 @@
 import axios from "axios";
 
 // Replace with your actual Google Apps Script URL
-const API = "https://script.google.com/macros/s/AKfycbz1EWi1gwci-offWfg_emvyKRvJhDMW664I4sea8v7qmDlmJwu7vrnMwnjVCCiAGQLwJw/exec";
+const API = "https://script.google.com/macros/s/AKfycbxwl3mB34XCohl0OcJNvpphyzU-0O8aOncMjaP_b-zjzsDaTvvacSDJRwa3VVlszsCDmw/exec";
 
 const apiClient = axios.create({
   timeout: 10000,
